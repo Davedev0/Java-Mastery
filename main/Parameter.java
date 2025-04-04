@@ -1,6 +1,6 @@
 package main;
 
-class Animal {
+public class Animal {
     void bark() {
         String sound = "woof woof";
         System.out.println(sound);
@@ -12,7 +12,7 @@ class Animal {
     }
 }
 
-class Parameter {
+public class Parameter {
     public static void main(String[] args) {
         Animal Dog = new Animal();
         Dog.bark();
